@@ -1,0 +1,9 @@
+.contact-container{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+}
+.form-container{
+    width: 400px;
+    height: 300px;
+}

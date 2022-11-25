@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navigator from "./Components/NavBar/NavBar";
+import AboutMe from "./Screens/AboutMe/AboutMe";
+import Home from "./Screens/Home/Home";
+import Imc from "./Screens/IMCCalculator/Imc";
+import AgeCalculator from "./Screens/AgeCalculator/AgeCalculator";
+import Clock from "./Screens/Clock/Clock";
+import Contact from "./Screens/Contact/Contact";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigator />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/imc" element={<Imc />} />
+        <Route path="/age" element={<AgeCalculator />} />
+        <Route path="/clock" element={<Clock />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;
