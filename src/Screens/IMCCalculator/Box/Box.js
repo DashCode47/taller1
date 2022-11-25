@@ -21,7 +21,7 @@ const Box = () => {
   const calcular = () => {
     const valor = statura / 100;
     const peso2 = peso;
-    const total = peso2 / (valor * valor);
+    const total = peso / (valor * valor);
     /* setval(statura / 100); */
     setdiagnostico(total);
   };
@@ -50,7 +50,7 @@ const Box = () => {
     }
   };
   return (
-    <div className="box-container">
+    <div className="box-weightcontainer">
       <input
         type={"range"}
         max={100}
@@ -69,16 +69,18 @@ const Box = () => {
 
       <div>
         <p>
-          peso:
+          Peso:
           <span>{peso}</span>
         </p>
         <p>
-          statura:
+          Estatura:
           <span>{statura}</span>
         </p>
       </div>
       <div style={{ color, fontSize: "20px", fontWeight: "bold" }}>{final}</div>
-      <button onClick={submit}>Calcular</button>
+      <button onClick={submit} className="btn-calcular">
+        Calcular
+      </button>
     </div>
   );
 };
