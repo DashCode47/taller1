@@ -32,3 +32,7 @@
     width: 100px;
     justify-content: space-between;
 }
+.calculo{
+    border-radius: 20px;
+    font-weight: bold;
+}
