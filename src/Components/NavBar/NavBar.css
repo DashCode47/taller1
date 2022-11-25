@@ -16,6 +16,10 @@
    
     align-items: center;
 }
+.krug{
+text-decoration: none;
+color: black;
+}
 .links{
     text-decoration: none;
     color: black;

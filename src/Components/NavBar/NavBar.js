@@ -16,10 +16,10 @@ const NavBar = () => {
       <NavLink to={"/age"} className="links">
         Age Calculator
       </NavLink>
-      <div className="logo-container">
+      <NavLink to={"/"} className="logo-container krug">
         <img src={require("../../assets/logo.png")} className="logo" />
         <h3>KrugerStar</h3>
-      </div>
+      </NavLink>
 
       <NavLink to={"./clock"} className="links">
         My CLock
