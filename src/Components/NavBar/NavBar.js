@@ -18,7 +18,7 @@ const NavBar = () => {
       </NavLink>
       <div className="logo-container">
         <img src={require("../../assets/logo.png")} className="logo" />
-        <h3>KrugerStar</h3>
+        <h3 className="kruger">KrugerStar</h3>
       </div>
 
       <NavLink to={"./clock"} className="links">
