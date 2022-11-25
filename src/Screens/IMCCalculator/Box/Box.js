@@ -50,7 +50,9 @@ const Box = () => {
     }
   };
   return (
-    <div className="box-weightcontainer">
+
+    <div className="box">
+
       <input
         type={"range"}
         max={100}

@@ -3,7 +3,7 @@ import "./imc.css";
 
 const Imc = () => {
   return (
-    <div className="imc-container">
+    <div className="imc-box">
       <Box />
     </div>
   );

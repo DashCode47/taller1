@@ -1,8 +1,11 @@
-.box-weightcontainer{
+
+.box{
     height: 300px;
     width: 600px;
     border-radius: 25px;
+    background-color: aliceblue;
     background-color: rgb(169, 205, 236);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,15 +30,7 @@
     width: 500px;
     border-radius: 25px;
 }
-.box-weightcontainer p{
+.box p{
     font-weight: bold;
     width: 100px;
-    
-    display: flex;
     justify-content: space-between;
-}
-.btn-calcular{
-    border-radius: 10px;
-    margin-top: 20px;
-    font-weight: bold;
-}
