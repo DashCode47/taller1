@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.logo{
+    height: 82px;
+    width: 80px;
+    padding-bottom: 15px;
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+   
+   align-items: center;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.active{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+}
+.kruger{
+    font-family: 'Comfortaa';
+    font-size: 28.44px;
+}

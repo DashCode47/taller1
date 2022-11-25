@@ -1,0 +1,42 @@
+.contact-container{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 522px;
+    height: 339px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 44px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.email{
+    width: 412px;
+}
+.message{
+    width: 412px;
+    height: 100px!important;
+}
+.input{
+    margin-bottom: 15px;
+    height: 35px;
+}
+.upinput{
+    display: flex;
+    flex-direction: row;
+}
+.firstname{
+    width: 186px;
+    margin-right: 20px;
+}
+.btn-form{
+    background-color: #18A0FB;
+    color: white;
+    border-width: 1px;
+}

@@ -1,0 +1,19 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.me{
+    height: 300px;
+    width: 200px;
+}
+.name{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.description{
+    width: 500px;
+}

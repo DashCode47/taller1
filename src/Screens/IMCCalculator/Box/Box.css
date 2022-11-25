@@ -1,0 +1,29 @@
+.box-container{
+    height: 300px;
+    width: 600px;
+    border-radius: 25px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.slider{ 
+    height: 10px;
+    width: 200px;
+}
+.thumb{
+    z-index: 4;
+    height: 15px;
+}
+.track{
+    background-color: aliceblue;
+    z-index: 1;
+    height: 15px;
+}
+.inputs{
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 25px;
+}
