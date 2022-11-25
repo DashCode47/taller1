@@ -1,8 +1,8 @@
-.box-container{
+.box-weightcontainer{
     height: 300px;
     width: 600px;
     border-radius: 25px;
-    background-color: darkgray;
+    background-color: rgb(169, 205, 236);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,4 +26,16 @@
     margin-bottom: 10px;
     width: 500px;
     border-radius: 25px;
+}
+.box-weightcontainer p{
+    font-weight: bold;
+    width: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.btn-calcular{
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
 }
