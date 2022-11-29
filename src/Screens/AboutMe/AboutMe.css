@@ -17,3 +17,16 @@
 .description{
     width: 500px;
 }
+
+@media screen and (max-width:480px){
+ 
+    .about-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+    }
+    .description{
+        width: 100%;
+    }
+   
+  }

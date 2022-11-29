@@ -11,6 +11,9 @@
     border-width: 2px;
     border-style: solid;
     padding: 44px;
+    -webkit-box-shadow: -45px -20px 17px 7px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -45px -20px 17px 7px rgba(34, 60, 80, 0.2);
+box-shadow: -45px -20px 17px 7px rgba(34, 60, 80, 0.2);
 }
 .title{
     font-size: 24px;
@@ -39,4 +42,81 @@
     background-color: #18A0FB;
     color: white;
     border-width: 1px;
+    border-radius: 20px;
 }
+@media screen and (max-width:480px){
+ 
+    .upinput{
+    flex-direction: column;
+    }
+    .form{
+    width: 70%;
+    height: 50%;
+    }
+   .email{
+    width: 90%;
+    height: 100%;
+    border-width: 1px;
+   }
+   .message{
+    width: 90%;
+    height: 100%;
+    border-width: 1px;
+   }
+   .firstname{
+    width: 90%;
+    height: 100%;
+    border-width: 1px;
+   }
+   .last{
+    width: 90%;
+    height: 50%;
+    border-width: 1px;
+   }
+   .contact-container{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+  }
+
+  @media screen and (max-width:416px){
+ 
+    .upinput{
+    flex-direction: column;
+    height: 80px;
+
+    padding-bottom: 5px;
+    justify-content: center;
+    }
+    .form{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 300px;
+    }
+   .email{
+    width: 90%;
+    height: 100%;
+   }
+   .message{
+    width: 90%;
+    height: 100%;
+   }
+   .firstname{
+    width: 90%;
+    height: 100%;
+   }
+   .last{
+    width: 90%;
+    height: 100%;
+   }
+   .contact-container{
+    display: flex;
+    height: 50%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+  }

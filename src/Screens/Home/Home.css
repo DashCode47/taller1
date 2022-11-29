@@ -18,3 +18,17 @@
 .card-container:nth-child(1){
     font-size: 25px;
 }
+
+@media screen and (max-width:480px){
+    .home-container{
+
+       height: 100%;
+    }
+    .card-container{
+        width: 90%;
+        height: 470px;
+    }
+    .card-container:nth-child(1){
+        font-size: 21px;
+    }
+  }
