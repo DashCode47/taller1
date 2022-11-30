@@ -6,7 +6,9 @@ import Imc from "./Screens/IMCCalculator/Imc";
 import AgeCalculator from "./Screens/AgeCalculator/AgeCalculator";
 import Clock from "./Screens/Clock/Clock";
 import Contact from "./Screens/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
+import Card from "react-bootstrap/Card";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
         <Route path="/clock" element={<Clock />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
+      <Footer />
     </>
   );
 };

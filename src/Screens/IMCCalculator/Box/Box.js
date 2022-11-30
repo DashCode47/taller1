@@ -50,7 +50,7 @@ const Box = () => {
     }
   };
   return (
-    <div className="box-container">
+    <div className="box">
       <input
         type={"range"}
         max={100}
@@ -78,7 +78,9 @@ const Box = () => {
         </p>
       </div>
       <div style={{ color, fontSize: "20px", fontWeight: "bold" }}>{final}</div>
-      <button onClick={submit}>Calcular</button>
+      <button onClick={submit} className="calculo">
+        Calcular
+      </button>
     </div>
   );
 };

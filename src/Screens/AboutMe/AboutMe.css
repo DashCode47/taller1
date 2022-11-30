@@ -5,8 +5,8 @@
     align-items: center;
 }
 .me{
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 280px;
 }
 .name{
     font-weight: bold;
@@ -17,3 +17,16 @@
 .description{
     width: 500px;
 }
+
+@media screen and (max-width:480px){
+ 
+    .about-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+    }
+    .description{
+        width: 100%;
+    }
+   
+  }
